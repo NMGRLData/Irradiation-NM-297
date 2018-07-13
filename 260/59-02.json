@@ -1,0 +1,156 @@
+{
+    "acquisition_software": "Pychron18.2(Exp0.2,DVC0.1)",
+    "aliquot": 2,
+    "analysis_type": "unknown",
+    "analyst_name": "MHeizler",
+    "comment": "C:19",
+    "commit": "9a36eee9ce7251c147150c02b8b80cfe2bb1e486",
+    "conditionals": null,
+    "data_reduction_software": "Pychron18.2(DVC0.1)",
+    "detectors": {
+        "AX": {
+            "deflection": 190.0,
+            "gain": 0
+        },
+        "CDD": {
+            "deflection": 50.0,
+            "gain": 0
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 0
+        },
+        "H2": {
+            "deflection": 0.0,
+            "gain": 0
+        },
+        "L1": {
+            "deflection": 400.0,
+            "gain": 0
+        },
+        "L2": {
+            "deflection": 825.0,
+            "gain": 0
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Hum.",
+                "pub_date": "2018-07-12T23:52:59",
+                "title": "iServer Hum.",
+                "value": 54.6
+            }
+        ],
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure",
+                "name": "Pressure",
+                "pub_date": "2018-07-13T00:11:06",
+                "title": "Building",
+                "value": 98.9
+            },
+            {
+                "device": "AirPressure2",
+                "name": "Pressure2",
+                "pub_date": "2018-07-13T00:13:07",
+                "title": "Lab",
+                "value": 87.2
+            },
+            {
+                "device": "MicroBoneGaugeController",
+                "name": "JanDecabinPressure",
+                "pub_date": "2018-07-13T00:15:53",
+                "title": "Jan Decabin",
+                "value": 4.7
+            }
+        ],
+        "lab_temperatures": [
+            {
+                "device": "Coldfinger",
+                "name": "ColdFinger Temp.",
+                "pub_date": "2018-07-13T00:03:06",
+                "title": "Cold Finger",
+                "value": -196.0
+            },
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Temp.",
+                "pub_date": "2018-07-12T22:36:13",
+                "title": "iServer Temp.",
+                "value": 73.0
+            },
+            {
+                "device": "Chiller",
+                "name": "Coolant Temp.",
+                "pub_date": "2018-07-13T00:15:23",
+                "title": "Coolant",
+                "value": 16.0
+            },
+            {
+                "device": "JanMonitor",
+                "name": "JanDecabinTemp",
+                "pub_date": "2018-07-12T23:32:35",
+                "title": null,
+                "value": 35.1648351648352
+            }
+        ]
+    },
+    "experiment_queue_name": "CurrentExperiment",
+    "extraction": "jan_co2_video.py",
+    "identifier": "26059",
+    "increment": null,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "NM-297",
+    "irradiation_level": "C",
+    "irradiation_position": 19,
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD",
+            "name": "Ar36"
+        },
+        "Ar37": {
+            "detector": "L2",
+            "name": "Ar37"
+        },
+        "Ar38": {
+            "detector": "L1",
+            "name": "Ar38"
+        },
+        "Ar39": {
+            "detector": "AX",
+            "name": "Ar39"
+        },
+        "Ar40": {
+            "detector": "H1",
+            "name": "Ar40"
+        },
+        "Ar41": {
+            "detector": "H2",
+            "name": "Ar41"
+        }
+    },
+    "laboratory": "",
+    "mass_spectrometer": "Jan",
+    "material": "Sanidine",
+    "measurement": "jan_unknown120_20_no_center.py",
+    "post_equilibration": "jan_pump_extraction_line.py",
+    "post_measurement": "jan_pump_ms.py",
+    "principal_investigator": "NMGRL",
+    "project": "Irradiation-NM-297",
+    "queue_conditionals_name": "",
+    "repository_identifier": "Irradiation-NM-297",
+    "sample": "FC-2",
+    "source": {
+        "emission": 546.697,
+        "trap": 198.483
+    },
+    "spec_sha": "26b2512808e692a82cf5380545097d41fd1d699c",
+    "timestamp": "2018-07-13T00:16:00.125317",
+    "tripped_conditional": null,
+    "username": "MHeizler",
+    "uuid": "f2a63c99-1dee-4e4e-920d-7cd1f65eed10",
+    "whiff_result": null
+}
